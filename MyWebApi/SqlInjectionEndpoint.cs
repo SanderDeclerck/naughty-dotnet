@@ -14,7 +14,7 @@ public static class SqlInjectionEndpoint
         {
             return TypedResults.Ok(reader.GetString(0));
         }
-
+        
         return TypedResults.NotFound();
     }
 }
